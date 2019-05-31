@@ -9,15 +9,15 @@ COCOAPODS_VERSION=1.7.0
 # SHOW FUNCTIONS
 
 show_info() {
-    echo -e "\033[1;33m$@\033[0m" 
+    echo "\033[1;33m$@\033[0m" 
 }
 
 show_success() {
-    echo -e "\033[1;32m$@\033[0m"
+    echo "\033[1;32m$@\033[0m"
 }
 
 show_error() {
-    echo -e "\033[1;31m$@\033[m" 1>&2
+    echo "\033[1;31m$@\033[m" 1>&2
 }
 
 function show_current_versions {
